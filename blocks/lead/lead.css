@@ -1,0 +1,7 @@
+.lead {
+  width: 984px;
+  height: 1005px;
+  display: grid;
+  grid-template-rows: calc(4, 1fr);
+  justify-items: center;
+}
