@@ -1,0 +1,9 @@
+.intro {
+  width: 690px;
+  height: 429px;
+  margin-top: 92px;
+  display: grid;
+  justify-self: start;
+  grid-template-columns: 148px 690px 442px;
+  grid-template-rows: 58px 40px 208px 33px 90px;
+}

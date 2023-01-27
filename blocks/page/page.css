@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  font-style: normal;
   background-color: #2A2C2F;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -14,5 +15,4 @@
     "header"
     "content"
     "footer";
-  justify-items: center;
 }

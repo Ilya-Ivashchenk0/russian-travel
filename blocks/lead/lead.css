@@ -1,7 +1,11 @@
 .lead {
   width: 984px;
   height: 1005px;
+  margin: 0;
+  padding: 0;
+  margin-top: 56px;
   display: grid;
-  grid-template-rows: calc(4, 1fr);
-  justify-items: center;
+  justify-content: center;
+  grid-template-columns: 148px 984px 148px;
+  grid-template-rows: 200px 32px 72px 64px 615px 8px 14px;
 }

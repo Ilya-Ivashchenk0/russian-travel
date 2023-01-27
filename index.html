@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Научиться учиться</title>
+  <title>Путешествия по России</title>
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="./fonts/Inter Web/inter.css">
 </head>
@@ -13,8 +13,8 @@
     <header class="header">
 
       <div class="header__logo"></div>
-      <a href="#" class="header__link">Ru</a>
-      <a href="#" class="header__link">En</a>
+      <a href="#" class="header__lang-link_ru">Ru</a>
+      <a href="#" class="header__lang-link_en">En</a>
 
     </header>
 
@@ -33,7 +33,7 @@
 
       </section>
 
-      <section class="intro">
+      <section class="intro" aria-label="Чего мы там не видели?">
 
         <h3 class="intro__title">Чего мы там не видели?</h3>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
@@ -50,24 +50,21 @@
 
       </section>
 
-      <section class="photo-grid">
+      <section class="photo-grid" aria-label="Галерея изображений">
 
-        <ul class="photo-grid__items">
+        <img class="photo-grid__item" alt="Вид из окна поезда" src="./images/photo-grid-train.jpg"></img>
+        <img class="photo-grid__item" alt="Горы и облака" src="./images/photo-grid-atharva-tulsi.jpg"></img>
+        <img class="photo-grid__item" alt="Волк на стоге сена" src="./images/photo-grid-tuman.jpg"></img>
+        <img class="photo-grid__item" alt="Туман в горах с ёлками" src="./images/photo-grid-sochi.jpg"></img>
+        <img class="photo-grid__item" alt="Машина на льду" src="./images/photo-grid-arisa.jpg"></img>
+        <img class="photo-grid__item" alt="Пляж" src="./images/photo-grid-baikal.jpg"></img>
+        <img class="photo-grid__item" alt="Горы" src="./images/photo-grid-elbrus.jpg"></img>
+        <img class="photo-grid__item" alt="Пешиходный перелеход" src="./images/photo-grid-kondratiev.jpg"></img>
+        <img class="photo-grid__item" alt="Горы в тумане" src="./images/photo-grid-kamchatka-1.jpg"></img>
+        <img class="photo-grid__item" alt="Вид из долины на одинокую гору" src="./images/photo-grid-kamchatka-2.jpg"></img>
+        <img class="photo-grid__item" alt="Прибрежные скалы" src="./images/photo-grid-baikal-2.jpg"></img>
+        <img class="photo-grid__item" alt="Горый в тумане" src="./images/photo-grid-ergaki.jpg"></img>
 
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-          <li class="photo-grid__item"></li>
-
-        </ul>
 
       </section>
 
@@ -161,7 +158,7 @@
 
       </section>
 
-      <section class="cover">
+      <section class="cover" aria-label="До Байкала «на собаках»">
 
         <h3 class="cover__title">До Байкала «на собаках»</h3>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
@@ -185,7 +182,7 @@
       <p class="footer__copyright">© 2023. Илья</p>
 
     </footer>
-    
+
   </div>
 </body>
 </html>
