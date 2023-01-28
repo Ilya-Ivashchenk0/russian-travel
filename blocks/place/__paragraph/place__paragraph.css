@@ -1,0 +1,8 @@
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-area: paragraph;
+  row-gap: 26px;
+  grid-template-rows: min-content min-content;
+}

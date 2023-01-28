@@ -1,0 +1,13 @@
+.place__website {
+  margin: 0;
+  padding: 0;
+  width: 456px;
+  height: 46px;
+  display: grid;
+  grid-area: website;
+  justify-content: start;
+  align-self: end;
+  grid-template-columns: 456px;
+  grid-template-rows: 12px 22px;
+  row-gap: 12px;
+}

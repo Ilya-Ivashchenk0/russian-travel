@@ -1,0 +1,12 @@
+.places {
+  margin: 0;
+  padding: 0;
+  margin-top: 92px;
+  width: 984px;
+  height: 100%;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 984px;
+  grid-template-rows: repeat(5, 660px);
+  row-gap: 80px;
+}
