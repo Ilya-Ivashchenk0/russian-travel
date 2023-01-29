@@ -4,12 +4,14 @@
   margin-top: 92px;
   width: 1184px;
   height: 740px;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
   display: grid;
-  grid-template-columns: 560px;
-  grid-template-rows: 152px 66px;
+  grid-template-columns: 1fr 560px 1fr;
+  grid-template-rows: 1fr 152px 66px 1fr;
+  grid-template-areas:
+        ". . ."
+        ". title ."
+        ". subtitle ."
+        ". . .";
   row-gap: 32px;
   justify-content: center;
   align-content: center;

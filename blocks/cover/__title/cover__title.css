@@ -6,4 +6,7 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  grid-area: title;
+  position: relative;
+  z-index: 3;
 }
