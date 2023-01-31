@@ -1,0 +1,26 @@
+.header__lang-link {
+  margin: 0;
+  padding: 0;
+  width: 6.59%;
+  display: flex;
+  gap: 18px;
+  list-style: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header__lang-link {
+    width: 8.41%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__lang-link {
+    width: 10.83%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header__lang-link {
+    width: 21.53%;
+  }
+}

@@ -1,11 +1,33 @@
 .lead {
-  width: 984px;
-  height: 1005px;
+  overflow: hidden;
+  max-width: 984px;
   margin: 0;
   padding: 0;
   margin-top: 56px;
   display: grid;
   justify-content: center;
-  grid-template-columns: 148px 984px 148px;
+  grid-template-columns: minmax(320px, 984px);
   grid-template-rows: 200px 32px 72px 64px 615px 8px 14px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+    grid-template-rows: 200px 32px 72px 56px 580px 8px 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead {
+    max-width: 768px;
+    margin-top: 48px;
+    grid-template-rows: 200px 32px 72px 56px 480px 8px 14px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead {
+    min-width: 320px;
+    grid-template-rows: 88px 16px 40px 40px 200px 8px 14px;
+  }
 }
