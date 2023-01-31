@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(5, max-content);
+  grid-column: 2 / 3;
+  grid-template-columns: repeat(5, min-content);
   column-gap: 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__menu {
+    max-width: 186px;
+    grid-template-columns: 186px;
+    
+  }
 }

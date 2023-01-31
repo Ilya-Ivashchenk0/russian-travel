@@ -2,17 +2,66 @@
   margin: 0;
   padding: 0;
   margin-top: 92px;
-  width: 1184px;
-  height: 740px;
+  min-width: 1184px;
+  min-height: 740px;
   display: grid;
-  grid-template-columns: 1fr 560px 1fr;
-  grid-template-rows: 1fr 152px 66px 1fr;
+  grid-template-columns: 1fr 100px 560px 100px 1fr;
+  grid-template-rows: 1fr 152px 32px 66px 1fr;
   grid-template-areas:
-        ". . ."
-        ". title ."
-        ". subtitle ."
-        ". . .";
-  row-gap: 32px;
+        ". . . . ."
+        ". title title title ."
+        ". . . . ."
+        ". . subtitle . ."
+        ". . . . .";
   justify-content: center;
-  align-content: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    min-width: 1024px;
+    max-width: 1024px;
+    max-height: 640px;
+    min-height: 640px;
+    grid-template-columns: 232px 100px 560px 100px 232px;
+    grid-template-areas:
+        ". . . . ."
+        ". . title . ."
+        ". . . . ."
+        ". . subtitle . ."
+        ". . . . .";
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    min-width: 768px;
+    max-width: 768px;
+    max-height: 480px;
+    min-height: 480px;
+    grid-template-columns: 1fr 100px min-content 100px 1fr;
+    grid-template-rows: 115px 152px 32px 66px 115px;
+    grid-template-areas:
+      " . . . . ."
+      ". title title title ."
+      ". . ."
+      ". . subtitle . ."
+      ". . . . .";
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover {
+    min-width: 320px;
+    max-width: 320px;
+    max-height: 200px;
+    min-height: 200px;
+    grid-template-columns: 16px 288px 16px;
+    grid-template-rows: 33px 70px 16px 48px 33px;
+    grid-template-areas:
+      " . . ."
+      ". title ."
+      ". . ."
+      ". subtitle ."
+      ". . .";
+  }
 }
