@@ -15,4 +15,4 @@ Gred and Flex
 
 **Ссылка проекта**
 
-https://github.com/Ilya-Ivashchenk0/yet-another-project.git
+https://ilya-ivashchenk0.github.io/yet-another-project/
