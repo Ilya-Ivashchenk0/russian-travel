@@ -1,18 +1,19 @@
 # Проект: Путешествие по России
 
-### Обзор
-* Интро
-* Figma
-* Ссылка проекта
-
 **Описание проекта**
 
-Проект о путешествии по России.
+На странице прокта вы можее найти полезную информацию для путешествий по России
 
 **Технологии**
 
-Gred and Flex
+HTML5 + CSS3
 
-**Ссылка проекта**
+Grid Layout and Flex Box
+
+**Ссылка на макет**
+
+https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0&t=Qi5SjK7oUprYpbf7-0
+
+**Ссылка проекта на GitHub Pages**
 
 https://ilya-ivashchenk0.github.io/yet-another-project/
