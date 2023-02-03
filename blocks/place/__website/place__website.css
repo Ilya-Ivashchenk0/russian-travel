@@ -5,13 +5,12 @@
   display: flex;
   grid-area: website;
   flex-direction: column;
-  align-self: start;
+  align-self: flex-end;
   row-gap: 12px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__website {
-    gap: 32px 48px;
     max-width: 928px;
     grid-template-columns: 440px auto;
   }
@@ -25,6 +24,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__website {
+    align-self: flex-start;
     max-width: 288px;
     margin: 0 16px;
   }

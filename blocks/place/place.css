@@ -3,17 +3,17 @@
   padding: 0;
   max-width: 984px;
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: repeat(2, auto);
   grid-template-areas:
     "title website"
     "image paragraph";
-  gap: 40px 48px;
+  gap: 48px 40px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    gap: 32px 48px;
+    gap: 48px 32px;
     max-width: 928px;
     grid-template-columns: 440px auto;
   }
@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    gap: 28px 48px;
+    gap: 48px 28px;
     max-width: 720px;
     grid-template-columns: 340px auto;
   }
